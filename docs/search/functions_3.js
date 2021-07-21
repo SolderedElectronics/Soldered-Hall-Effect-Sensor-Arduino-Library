@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readdata_27',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_28',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['hall_5feffect_27',['Hall_Effect',['../class_hall___effect.html#abef848f7878e9803f4a695fea7bb37f6',1,'Hall_Effect']]]
 ];

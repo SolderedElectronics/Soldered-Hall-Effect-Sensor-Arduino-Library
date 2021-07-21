@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Generic easyC lib documentation: EasyC Class Reference</title>
+<title>easyC Hall Effect Sensor Soldered library: EasyC Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,12 +24,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Generic easyC lib documentation
-   &#160;<span id="projectnumber">0.1.0</span>
+   <div id="projectname">easyC Hall Effect Sensor Soldered library
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Template easyC communication class.</div>
+   <div id="projectbrief">This is a library for the hall effect sensor by Soldered.</div>
   </td>
  </tr>
  </tbody>
@@ -101,7 +101,7 @@ Inheritance diagram for EasyC:</div>
  <div class="center">
   <img src="class_easy_c.png" usemap="#EasyC_map" alt=""/>
   <map id="EasyC_map" name="EasyC_map">
-<area href="class_sensor.html" alt="Sensor" shape="rect" coords="0,56,52,80"/>
+<area href="class_hall___effect.html" alt="Hall_Effect" shape="rect" coords="0,56,74,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -127,9 +127,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a9a3d39be50b348768bc4b5dea3dae01a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">readData</a> (char a[], int n)</td></tr>
 <tr class="memdesc:a9a3d39be50b348768bc4b5dea3dae01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to read n bytes over i2c.  <a href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">More...</a><br /></td></tr>
 <tr class="separator:a9a3d39be50b348768bc4b5dea3dae01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5231ae10c997be43f09532a6793fc8ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a5231ae10c997be43f09532a6793fc8ea">sendData</a> (char a[], int n)</td></tr>
-<tr class="memdesc:a5231ae10c997be43f09532a6793fc8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to write n bytes over i2c.  <a href="class_easy_c.html#a5231ae10c997be43f09532a6793fc8ea">More...</a><br /></td></tr>
-<tr class="separator:a5231ae10c997be43f09532a6793fc8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe8aa014ae53cad3b0f3c42f59277195"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">sendData</a> (const uint8_t *a, int n)</td></tr>
+<tr class="memdesc:afe8aa014ae53cad3b0f3c42f59277195"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to write n bytes over i2c.  <a href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">More...</a><br /></td></tr>
+<tr class="separator:afe8aa014ae53cad3b0f3c42f59277195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45bd6c915c1fa0998e273f69ee2d2376"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">readRegister</a> (char regAddr, char a[], size_t n)</td></tr>
 <tr class="memdesc:a45bd6c915c1fa0998e273f69ee2d2376"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to send over i2c and then read n bytes.  <a href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">More...</a><br /></td></tr>
 <tr class="separator:a45bd6c915c1fa0998e273f69ee2d2376"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,7 +236,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">Sensor</a>.</p>
+<p>Implemented in <a class="el" href="class_hall___effect.html#a708664ffce90d41db8232e6c0609b261">Hall_Effect</a>.</p>
 
 </div>
 </div>
@@ -374,8 +374,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5231ae10c997be43f09532a6793fc8ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5231ae10c997be43f09532a6793fc8ea">&#9670;&nbsp;</a></span>sendData()</h2>
+<a id="afe8aa014ae53cad3b0f3c42f59277195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe8aa014ae53cad3b0f3c42f59277195">&#9670;&nbsp;</a></span>sendData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,8 +386,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">int EasyC::sendData </td>
           <td>(</td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>a</em>[], </td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

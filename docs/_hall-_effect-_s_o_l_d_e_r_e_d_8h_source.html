@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Generic easyC lib documentation: Generic-easyC-SOLDERED.h Source File</title>
+<title>easyC Hall Effect Sensor Soldered library: Hall-Effect-SOLDERED.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,12 +24,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Generic easyC lib documentation
-   &#160;<span id="projectnumber">0.1.0</span>
+   <div id="projectname">easyC Hall Effect Sensor Soldered library
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Template easyC communication class.</div>
+   <div id="projectbrief">This is a library for the hall effect sensor by Soldered.</div>
   </td>
  </tr>
  </tbody>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_generic-easy_c-_s_o_l_d_e_r_e_d_8h_source.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_hall-_effect-_s_o_l_d_e_r_e_d_8h_source.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -85,41 +85,44 @@ $(document).ready(function(){initNavTree('_generic-easy_c-_s_o_l_d_e_r_e_d_8h_so
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Generic-easyC-SOLDERED.h</div>  </div>
+<div class="title">Hall-Effect-SOLDERED.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="_generic-easy_c-_s_o_l_d_e_r_e_d_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<a href="_hall-_effect-_s_o_l_d_e_r_e_d_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef __SENSOR__</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define __SENSOR__</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;Arduino.h&quot;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="easy_c_8h.html">libs/Generic-easyC/easyC.h</a>&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_sensor.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_sensor.html">Sensor</a> : <a class="code" href="class_easy_c.html">EasyC</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_hall___effect.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_hall___effect.html">Hall_Effect</a> : <span class="keyword">public</span> <a class="code" href="class_easy_c.html">EasyC</a></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62">Sensor</a>(<span class="keywordtype">int</span> _pin);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">initializeNative</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="comment">// Hall_Effect(int _pin);</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_hall___effect.html#abef848f7878e9803f4a695fea7bb37f6">   22</a></span>&#160;    <a class="code" href="class_hall___effect.html#abef848f7878e9803f4a695fea7bb37f6">Hall_Effect</a>(){};</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_hall___effect.html#ad8049070359d5d9bcbdddd11c1b01b42">digitalRead</a>();</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_sensor.html#a0efecf34431610766469857f25e113da">   27</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_sensor.html#a0efecf34431610766469857f25e113da">pin</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_hall___effect.html#a708664ffce90d41db8232e6c0609b261">   27</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_hall___effect.html#a708664ffce90d41db8232e6c0609b261">initializeNative</a>(){};</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="comment">// int pin;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_easy_c_html"><div class="ttname"><a href="class_easy_c.html">EasyC</a></div><div class="ttdef"><b>Definition:</b> easyC.h:22</div></div>
-<div class="ttc" id="aclass_sensor_html"><div class="ttname"><a href="class_sensor.html">Sensor</a></div><div class="ttdef"><b>Definition:</b> Generic-easyC-SOLDERED.h:19</div></div>
-<div class="ttc" id="aclass_sensor_html_a0efecf34431610766469857f25e113da"><div class="ttname"><a href="class_sensor.html#a0efecf34431610766469857f25e113da">Sensor::pin</a></div><div class="ttdeci">int pin</div><div class="ttdef"><b>Definition:</b> Generic-easyC-SOLDERED.h:27</div></div>
-<div class="ttc" id="aclass_sensor_html_a2b8ea6b15267f6fa0e263f57a09f6b62"><div class="ttname"><a href="class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62">Sensor::Sensor</a></div><div class="ttdeci">Sensor(int _pin)</div><div class="ttdoc">Sensor specific native constructor.</div><div class="ttdef"><b>Definition:</b> Generic-easyC-SOLDERED.cpp:20</div></div>
-<div class="ttc" id="aclass_sensor_html_adb537c76173019fddf84b2d89e6c6559"><div class="ttname"><a href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">Sensor::initializeNative</a></div><div class="ttdeci">void initializeNative()</div><div class="ttdoc">Overloaded function for virtual in base class to initialize sensor specific.</div><div class="ttdef"><b>Definition:</b> Generic-easyC-SOLDERED.cpp:29</div></div>
+<div class="ttc" id="aclass_hall___effect_html"><div class="ttname"><a href="class_hall___effect.html">Hall_Effect</a></div><div class="ttdef"><b>Definition:</b> Hall-Effect-SOLDERED.h:19</div></div>
+<div class="ttc" id="aclass_hall___effect_html_a708664ffce90d41db8232e6c0609b261"><div class="ttname"><a href="class_hall___effect.html#a708664ffce90d41db8232e6c0609b261">Hall_Effect::initializeNative</a></div><div class="ttdeci">void initializeNative()</div><div class="ttdef"><b>Definition:</b> Hall-Effect-SOLDERED.h:27</div></div>
+<div class="ttc" id="aclass_hall___effect_html_abef848f7878e9803f4a695fea7bb37f6"><div class="ttname"><a href="class_hall___effect.html#abef848f7878e9803f4a695fea7bb37f6">Hall_Effect::Hall_Effect</a></div><div class="ttdeci">Hall_Effect()</div><div class="ttdef"><b>Definition:</b> Hall-Effect-SOLDERED.h:22</div></div>
+<div class="ttc" id="aclass_hall___effect_html_ad8049070359d5d9bcbdddd11c1b01b42"><div class="ttname"><a href="class_hall___effect.html#ad8049070359d5d9bcbdddd11c1b01b42">Hall_Effect::digitalRead</a></div><div class="ttdeci">bool digitalRead()</div><div class="ttdoc">Hall_Effect specific native constructor.</div><div class="ttdef"><b>Definition:</b> Hall-Effect-SOLDERED.cpp:40</div></div>
 <div class="ttc" id="aeasy_c_8h_html"><div class="ttname"><a href="easy_c_8h.html">easyC.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_generic-easy_c-_s_o_l_d_e_r_e_d_8h.html">Generic-easyC-SOLDERED.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_hall-_effect-_s_o_l_d_e_r_e_d_8h.html">Hall-Effect-SOLDERED.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
