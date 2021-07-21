@@ -5,8 +5,8 @@
  * @brief       Header file for sensor specific code.
  *
  *
- *
- * @authors     @ soldered.com
+ * @copyright GNU General Public License v3.0
+ * @authors Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
 #ifndef __SENSOR__
@@ -15,16 +15,19 @@
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
 
-class Sensor : EasyC
+class Hall_Effect : public EasyC
 {
   public:
-    Sensor(int _pin);
+    // Hall_Effect(int _pin);
+    Hall_Effect(){};
+
+    bool digitalRead();
 
   protected:
-    void initializeNative();
+    void initializeNative(){};
 
   private:
-    int pin;
+    // int pin;
 };
 
 #endif

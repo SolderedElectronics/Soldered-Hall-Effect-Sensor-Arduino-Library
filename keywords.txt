@@ -10,7 +10,8 @@
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin	    KEYWORD2
+digitalRead	KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
