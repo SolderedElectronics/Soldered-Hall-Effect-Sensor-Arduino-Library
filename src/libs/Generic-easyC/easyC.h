@@ -5,8 +5,8 @@
  * @brief       Basic funtions for easyC libraries
  *
  *
- *
- * @authors     @ soldered.com
+ * @copyright GNU General Public License v3.0
+ * @authors Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
 #ifndef __EASYC_LIBRARY__
@@ -39,7 +39,7 @@ class EasyC
 
     int sendAddress(char regAddr);
     int readData(char a[], int n);
-    int sendData(char a[], int n);
+    int sendData(const uint8_t *a, int n);
     int readRegister(char regAddr, char a[], size_t n);
 };
 

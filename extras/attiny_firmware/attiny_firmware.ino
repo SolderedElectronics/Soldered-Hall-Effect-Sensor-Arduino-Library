@@ -6,7 +6,7 @@
  *
 
  *
- * @authors     @ soldered.com
+ * @authors Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
 #include "easyC.h"
@@ -22,6 +22,8 @@ void setup()
     Wire.begin(addr);
     Wire.onReceive(receiveEvent);
     Wire.onRequest(requestEvent);
+
+    pinMode(PA4, INPUT);
 }
 
 void loop()
@@ -41,8 +43,6 @@ void receiveEvent(int howMany)
 
 void requestEvent()
 {
-    int n = 5;
-
-    char a[n];
-    Wire.write(a, n);
+    char c = digitalRead(PA4);
+    Wire.write(&c, 1);
 }
