@@ -5,9 +5,9 @@
 
 | ![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](www.solde.red/SKU)                                                            |
+| [easyC Hall Effect Sensor](www.solde.red/333017)                                                |
 ​
-OPIS PROIZVODA + LINK NA [easyC ecosystem](www.soldered.com/easyC). 
+Hall Effect Sensor compliant with the [easyC ecosystem](www.soldered.com/easyC). 
 ​
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
