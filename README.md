@@ -7,10 +7,10 @@
 
 | ![NAZIV 16x2 LCD](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)        | 
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV 16x2 LCD](www.solde.red/333017)                                                          | 
+| [NAZIV 16x2 LCD](https://www.solde.red/333017)                                                  | 
 
 
-16x2 LCD Module compiant to [easyC ecosystem](www.soldered.com/easyC). 
+16x2 LCD Module compiant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -29,7 +29,7 @@ Access Arduino library documentation [here](https://e-radionicacom.github.io/Sol
 - Installing an Arduino library             
 
 ### About Soldered
-![Soldered logo](https://raw.githubusercontent.com/e-radionicacom/Generic-easyC/dev/extras/Logo%20vertical-2.svg)
+![Soldered logo](https://raw.githubusercontent.com/e-radionicacom/Generic-easyC/dev/extras/Logo%20horizontal-2.svg)
 
 At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
 
