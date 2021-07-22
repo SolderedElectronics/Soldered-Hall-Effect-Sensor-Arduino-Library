@@ -24,8 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "easyC Hall Effect Sensor Soldered library", "index.html", [
-    [ "Hall Effect Arduino library", "md__r_e_a_d_m_e.html", null ],
+  [ "Hall Effect Sensor", "index.html", [
+    [ "Hall Effect Arduino library", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
