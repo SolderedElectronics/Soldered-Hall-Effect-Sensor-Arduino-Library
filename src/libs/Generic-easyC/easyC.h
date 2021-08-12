@@ -1,12 +1,12 @@
 /**
  **************************************************
  *
- * @file        Generic-easyC-SOLDERED.h
+ * @file        easyC.h
  * @brief       Basic funtions for easyC libraries
  *
  *
  * @copyright GNU General Public License v3.0
- * @authors Zvonimir Haramustek for Soldered.com
+ * @authors     @ soldered.com
  ***************************************************/
 
 #ifndef __EASYC_LIBRARY__
@@ -17,6 +17,9 @@
 
 #define ANALOG_READ_REG  0
 #define DIGITAL_READ_REG 1
+
+namespace HALL_EFFECT_SOLDERED_LIBS
+{
 
 class EasyC
 {
@@ -42,5 +45,7 @@ class EasyC
     int sendData(const uint8_t *a, int n);
     int readRegister(char regAddr, char a[], size_t n);
 };
+
+} // namespace HALL_EFFECT_SOLDERED_LIBS
 
 #endif

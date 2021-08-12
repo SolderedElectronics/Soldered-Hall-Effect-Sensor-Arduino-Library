@@ -15,7 +15,7 @@
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
 
-class Hall_Effect : public EasyC
+class Hall_Effect : public HALL_EFFECT_SOLDERED_LIBS::EasyC
 {
   public:
     // Hall_Effect(int _pin);
