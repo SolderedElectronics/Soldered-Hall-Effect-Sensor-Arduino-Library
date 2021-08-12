@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sendaddress_34',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_35',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]]
+  ['sendaddress_36',['sendAddress',['../class_h_a_l_l___e_f_f_e_c_t___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ad98ef8904ffa77643819f2d96ce9d988',1,'HALL_EFFECT_SOLDERED_LIBS::EasyC']]],
+  ['senddata_37',['sendData',['../class_h_a_l_l___e_f_f_e_c_t___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ae99c89e30b938464e24f08fb5121ef32',1,'HALL_EFFECT_SOLDERED_LIBS::EasyC']]]
 ];

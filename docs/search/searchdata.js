@@ -2,29 +2,32 @@ var indexSectionsWithContent =
 {
   0: "abdehinrs",
   1: "eh",
-  2: "ehr",
-  3: "bdehirs",
-  4: "abden",
-  5: "h"
+  2: "h",
+  3: "ehr",
+  4: "bdehirs",
+  5: "abden",
+  6: "h"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "files",
-  3: "functions",
-  4: "variables",
-  5: "pages"
+  2: "namespaces",
+  3: "files",
+  4: "functions",
+  5: "variables",
+  6: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "All",
   1: "Classes",
-  2: "Files",
-  3: "Functions",
-  4: "Variables",
-  5: "Pages"
+  2: "Namespaces",
+  3: "Files",
+  4: "Functions",
+  5: "Variables",
+  6: "Pages"
 };
 

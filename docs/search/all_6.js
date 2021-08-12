@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_14',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['native_15',['native',['../class_h_a_l_l___e_f_f_e_c_t___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aee567a40a0ffd60156dbcbf218557936',1,'HALL_EFFECT_SOLDERED_LIBS::EasyC']]]
 ];
