@@ -5,12 +5,12 @@
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/actions/workflows/make_docs.yml)
 
 
-| ![NAZIV 16x2 LCD](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)        | 
+| ![Hall Effect sensor](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)        | 
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV 16x2 LCD](https://www.solde.red/333017)                                                  | 
+| [Hall Effect sensor](https://www.solde.red/333017)                                                  | 
 
 
-16x2 LCD Module compiant to [easyC ecosystem](https://www.soldered.com/easyC). 
+Hall Effect sensor compiant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -25,7 +25,7 @@ You can find hardware design for this board in Hall Effect Sensor hardware repos
 
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Hall-Effect-Sensor-Arduino-Library/). 
 
-- Tutorial for using the NAZIV PROIZVODA board 
+- Tutorial for using the Hall Effect sensor board 
 - Installing an Arduino library             
 
 ### About Soldered
