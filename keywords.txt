@@ -1,18 +1,21 @@
 ##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+# Syntax Coloring Map For Hall-Effect-Sensor-Soldered
 ##################################################
 
 ##################################################
 # Datatypes (KEYWORD1)
 ##################################################
 
+Hall_Effect	KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	    KEYWORD2
+begin	   	KEYWORD2
 digitalRead	KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
 ##################################################
+

@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Digital_Read.ino
- * @brief       Example of digital read function for SOLDERED Hall Effect board, see more at solde.red/333017
+ * @brief       Example of digital read function for SOLDERED Hall Effect board, see more at solde.red/333081
  *
  *
  *
