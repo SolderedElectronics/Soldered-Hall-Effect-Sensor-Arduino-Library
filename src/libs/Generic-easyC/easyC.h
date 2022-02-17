@@ -9,8 +9,8 @@
  * @authors     @ soldered.com
  ***************************************************/
 
-#ifndef __EASYC_LIBRARY__
-#define __EASYC_LIBRARY__
+#ifndef __HALL_EFFECT_SENSOR__
+#define __HALL_EFFECT_SENSOR__
 
 #include "Arduino.h"
 #include "Wire.h"
