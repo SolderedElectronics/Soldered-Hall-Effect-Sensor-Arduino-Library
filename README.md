@@ -1,7 +1,5 @@
 # Hall Effect Arduino library
 
-
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/actions/workflows/make_docs.yml)
 
 
@@ -26,7 +24,13 @@ You can find hardware design for this board in Hall Effect Sensor hardware repos
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Hall-Effect-Sensor-Arduino-Library/). 
 
 - Tutorial for using the Hall Effect sensor board 
-- Installing an Arduino library             
+- Installing an Arduino library
+
+### Board compatibility
+
+The library is compatible with board & microcontroller families shown in green below: 
+
+[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Hall-Effect-Sensor-Arduino-Library/actions/workflows/compile_test.yml)
 
 ### About Soldered
 ![Soldered logo](https://raw.githubusercontent.com/e-radionicacom/Generic-easyC/dev/extras/Logo%20horizontal-2.svg)
