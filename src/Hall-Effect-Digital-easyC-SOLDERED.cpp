@@ -14,13 +14,12 @@
 
 /**
  * @brief                   Constructor of HallEffect_Digital_EasyC with a custom address
- * 
+ *
  * @param                   byte _addr
  *                          Custom address (view examples/digitalRead_easyC for more info)
  */
 HallEffect_Digital_EasyC::HallEffect_Digital_EasyC(byte _addr)
 {
-
 }
 
 /**

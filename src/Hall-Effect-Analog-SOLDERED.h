@@ -17,8 +17,8 @@
 
 /**
  *  @brief    Base class Analog Hall Effect Sensor
- * 
-*/
+ *
+ */
 class HallEffect_Analog
 {
   public:

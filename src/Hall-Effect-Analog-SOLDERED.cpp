@@ -28,7 +28,7 @@ HallEffect_Analog::HallEffect_Analog(int _pin)
  * @brief                   Reads hall effect sensor value
  *
  * @return                  Returns a unit16_4 sensor reading value.
- * 
+ *
  * @note                    The value will be around 1845 for no magnet detected.
  *                          It will increase towards 4095 (analogRead maximum) if a + polarity magnet is detected
  *                          And it will decrease towards 0 if a - polarity magnet is detected

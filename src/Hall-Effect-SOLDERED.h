@@ -18,9 +18,9 @@
 #define __HALL_EFFECT_SOLDERED__
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.hpp"
-#include "Hall-Effect-Digital-SOLDERED.h"
 #include "Hall-Effect-Analog-SOLDERED.h"
+#include "Hall-Effect-Digital-SOLDERED.h"
 #include "Hall-Effect-Digital-easyC-SOLDERED.h"
+#include "libs/Generic-easyC/easyC.hpp"
 
 #endif

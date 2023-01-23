@@ -18,15 +18,15 @@
 
 /**
  *  @brief    Base class Digital EasyC Hall Effect Sensor
- * 
-*/
+ *
+ */
 class HallEffect_Digital_EasyC : public EasyC
 {
   public:
     HallEffect_Digital_EasyC(){};
     HallEffect_Digital_EasyC(byte _addr);
     bool getReading();
-  
+
   protected:
     void initializeNative(){};
 };
