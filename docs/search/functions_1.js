@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['digitalread_0',['digitalRead',['../class_hall___effect.html#ad8049070359d5d9bcbdddd11c1b01b42',1,'Hall_Effect']]]
+  ['easyc_0',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
 ];

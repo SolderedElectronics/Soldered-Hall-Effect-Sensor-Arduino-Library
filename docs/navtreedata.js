@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "Hall Effect sensor Library", "index.html", [
-    [ "Hall Effect Arduino library", "index.html", [
-      [ "Have fun!", "index.html#autotoc_md8", null ]
-    ] ],
+    [ "Hall Effect Arduino library", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -46,7 +44,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_hall-_effect-_s_o_l_d_e_r_e_d_8cpp.html"
+"_hall-_effect-_analog-_s_o_l_d_e_r_e_d_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
