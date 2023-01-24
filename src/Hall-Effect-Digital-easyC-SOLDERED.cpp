@@ -19,7 +19,7 @@
  */
 bool HallEffect_Digital_EasyC::getReading()
 {
-        // Reading register will always return two bytes
+    // Reading register will always return two bytes
     // Both must be read but we're only interested in the first one
     char value;
     char padding;
