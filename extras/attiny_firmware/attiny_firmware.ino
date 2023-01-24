@@ -43,6 +43,11 @@ void receiveEvent(int howMany)
 
 void requestEvent()
 {
-    char c = digitalRead(PA4);
-    Wire.write(&c, 1);
+    int c = 0;
+    char a[2];
+    
+    c = analogRead(PA4);
+    a[1] = c >> 8;
+    a[0] = c & 0xFF;
+    Wire.write(a, 2);
 }

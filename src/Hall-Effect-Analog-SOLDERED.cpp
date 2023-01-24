@@ -37,3 +37,14 @@ uint16_t HallEffect_Analog::getReading()
 {
     return analogRead(pin);
 }
+
+/**
+ * @brief                   Reads hall effect calculated milli Teslas value
+ *
+ * @return                  Returns calculated milli Teslas
+ */
+float HallEffect_Analog::getMilliTeslas()
+{
+    uint16_t value = getReading() / 4; //TODO
+    return 20.47 * (10 * (value / 1023.0) / 5.0 - 1);
+}

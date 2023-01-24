@@ -19,7 +19,7 @@
 // GND to GND
 
 // To change the reading, place a magnet in front of the sensor
-// getReading returns a uint16_t analogRead of the sensor
+// getReading returns a uint16_t analogRead on the sensor pin
 // The sensor outputs approx 1.65V by default
 // A higher number indicates a stronger magnetic force
 // If it's always reading 0, check connections and if the HALL_EFFECT_PIN can be used as an analog input on your board
@@ -36,13 +36,17 @@ void setup()
 
 void loop()
 {
+    // Read sensor and store to variable
     uint16_t hallReading = hall.getReading();
+    float hallMilliTeslas = hall.getMilliTeslas();
 
-    // Print sensor value to serial
-    Serial.print("Analog Hall Effect Sensor reading: ");
+    // Print sensor values to serial
+    Serial.print("Analog Hall Effect raw sensor reading: ");
     Serial.println(hallReading);
-    Serial.println(""); // Newline
+    Serial.print("Which is: ");
+    Serial.print(hallMilliTeslas);
+    Serial.println(" mT\n");
 
     // Wait a bit until next measurement
-    delay(500);
+    delay(1000);
 }

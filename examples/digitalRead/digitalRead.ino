@@ -19,7 +19,7 @@
 // GND to GND
 
 // To change the reading, place a magnet in front of the sensor
-// getReading Reads 1 (True) for a detected magnet and 0 (False) for no magnet detected
+// getReading returns 1 (True) for a detected magnet and 0 (False) for no magnet detected
 // If it's always reading 0, check connections
 
 // Declare sensor object
@@ -33,6 +33,7 @@ void setup()
 
 void loop()
 {
+    // Read sensor
     bool hallReading = hall.getReading();
 
     // Print sensor value to serial
@@ -50,5 +51,5 @@ void loop()
     }
     
     // Wait a bit until next measurement
-    delay(2000);
+    delay(1000);
 }
