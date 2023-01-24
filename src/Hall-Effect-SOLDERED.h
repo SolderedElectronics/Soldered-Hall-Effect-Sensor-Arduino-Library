@@ -21,6 +21,7 @@
 #include "Hall-Effect-Analog-SOLDERED.h"
 #include "Hall-Effect-Digital-SOLDERED.h"
 #include "Hall-Effect-Digital-easyC-SOLDERED.h"
+#include "Hall-Effect-Analog-easyC-SOLDERED.h"
 #include "libs/Generic-easyC/easyC.hpp"
 
 #endif

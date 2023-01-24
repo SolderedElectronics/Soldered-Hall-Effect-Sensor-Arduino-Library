@@ -13,23 +13,17 @@
 #include "Hall-Effect-Digital-easyC-SOLDERED.h"
 
 /**
- * @brief                   Constructor of HallEffect_Digital_EasyC with a custom address
- *
- * @param                   byte _addr
- *                          Custom address (view examples/digitalRead_easyC for more info)
- */
-HallEffect_Digital_EasyC::HallEffect_Digital_EasyC(byte _addr)
-{
-}
-
-/**
  * @brief                   Reads hall effect sensor value via easyC
  *
  * @return                  Returns sensor value inverted (1 for magnet detected, 0 for no magnet)
  */
 bool HallEffect_Digital_EasyC::getReading()
 {
-    char a;
-    readRegister(0, &a, 1);
-    return !a;
+        // Reading register will always return two bytes
+    // Both must be read but we're only interested in the first one
+    char value;
+    char padding;
+    readRegister(0, &value, 1);
+    readRegister(0, &padding, 1);
+    return !value;
 }
