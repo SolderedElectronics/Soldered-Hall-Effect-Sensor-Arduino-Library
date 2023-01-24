@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Hall Effect sensor Library: HallEffect_Digital_EasyC Class Reference</title>
+<title>Hall Effect sensor Library: HallEffect_Analog_EasyC Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_hall_effect___digital___easy_c.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('class_hall_effect___analog___easy_c.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -96,26 +96,28 @@ $(document).ready(function(){initNavTree('class_hall_effect___digital___easy_c.h
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="class_hall_effect___digital___easy_c-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">HallEffect_Digital_EasyC Class Reference</div></div>
+<a href="class_hall_effect___analog___easy_c-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">HallEffect_Analog_EasyC Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>Base class Digital <a class="el" href="class_easy_c.html">EasyC</a> Hall Effect Sensor.  
- <a href="class_hall_effect___digital___easy_c.html#details">More...</a></p>
+ <a href="class_hall_effect___analog___easy_c.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_hall-_effect-_digital-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">Hall-Effect-Digital-easyC-SOLDERED.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_hall-_effect-_analog-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">Hall-Effect-Analog-easyC-SOLDERED.h</a>&gt;</code></p>
 
 <p>Inherits <a class="el" href="class_easy_c.html">EasyC</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac98cbe72f4b4f2d330bb842b1f039764"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall_effect___digital___easy_c.html#ac98cbe72f4b4f2d330bb842b1f039764">HallEffect_Digital_EasyC</a> ()</td></tr>
-<tr class="memdesc:ac98cbe72f4b4f2d330bb842b1f039764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of <a class="el" href="class_hall_effect___digital___easy_c.html" title="Base class Digital EasyC Hall Effect Sensor.">HallEffect_Digital_EasyC</a> with a custom address.  <br /></td></tr>
-<tr class="separator:ac98cbe72f4b4f2d330bb842b1f039764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f3ce31ac82dcaeb2e77ba1c5e01be4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall_effect___digital___easy_c.html#a05f3ce31ac82dcaeb2e77ba1c5e01be4">getReading</a> ()</td></tr>
-<tr class="memdesc:a05f3ce31ac82dcaeb2e77ba1c5e01be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads hall effect sensor value via easyC.  <br /></td></tr>
-<tr class="separator:a05f3ce31ac82dcaeb2e77ba1c5e01be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a0aa196c6701f2484e0d17dd6fd213"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall_effect___analog___easy_c.html#a43a0aa196c6701f2484e0d17dd6fd213">HallEffect_Analog_EasyC</a> ()</td></tr>
+<tr class="separator:a43a0aa196c6701f2484e0d17dd6fd213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30114fcd2324ac471f546702cf1f6369"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall_effect___analog___easy_c.html#a30114fcd2324ac471f546702cf1f6369">getRawReading</a> ()</td></tr>
+<tr class="memdesc:a30114fcd2324ac471f546702cf1f6369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads hall effect raw sensor value via easyC.  <br /></td></tr>
+<tr class="separator:a30114fcd2324ac471f546702cf1f6369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa94d96ee929fef5b398706a211c302ff"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall_effect___analog___easy_c.html#aa94d96ee929fef5b398706a211c302ff">getMilliTeslas</a> ()</td></tr>
+<tr class="memdesc:aa94d96ee929fef5b398706a211c302ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads hall effect calculated milli Teslas value via easyC.  <br /></td></tr>
+<tr class="separator:aa94d96ee929fef5b398706a211c302ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_easy_c')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_easy_c.html">EasyC</a></td></tr>
 <tr class="memitem:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd">EasyC</a> ()</td></tr>
 <tr class="memdesc:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for easyC version.  <br /></td></tr>
@@ -143,8 +145,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a03545c867a29e787ca562e44b7f9728c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall_effect___digital___easy_c.html#a03545c867a29e787ca562e44b7f9728c">initializeNative</a> ()</td></tr>
-<tr class="separator:a03545c867a29e787ca562e44b7f9728c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e103aaa2eeedee7a98d226650f5eb74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hall_effect___analog___easy_c.html#a4e103aaa2eeedee7a98d226650f5eb74">initializeNative</a> ()</td></tr>
+<tr class="separator:a4e103aaa2eeedee7a98d226650f5eb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -163,8 +165,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class Digital <a class="el" href="class_easy_c.html">EasyC</a> Hall Effect Sensor. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac98cbe72f4b4f2d330bb842b1f039764" name="ac98cbe72f4b4f2d330bb842b1f039764"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac98cbe72f4b4f2d330bb842b1f039764">&#9670;&#160;</a></span>HallEffect_Digital_EasyC()</h2>
+<a id="a43a0aa196c6701f2484e0d17dd6fd213" name="a43a0aa196c6701f2484e0d17dd6fd213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a0aa196c6701f2484e0d17dd6fd213">&#9670;&#160;</a></span>HallEffect_Analog_EasyC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +175,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">HallEffect_Digital_EasyC::HallEffect_Digital_EasyC </td>
+          <td class="memname">HallEffect_Analog_EasyC::HallEffect_Analog_EasyC </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -186,25 +188,17 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor of <a class="el" href="class_hall_effect___digital___easy_c.html" title="Base class Digital EasyC Hall Effect Sensor.">HallEffect_Digital_EasyC</a> with a custom address. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">byte</td><td>_addr Custom address (view examples/digitalRead_easyC for more info) </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a05f3ce31ac82dcaeb2e77ba1c5e01be4" name="a05f3ce31ac82dcaeb2e77ba1c5e01be4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05f3ce31ac82dcaeb2e77ba1c5e01be4">&#9670;&#160;</a></span>getReading()</h2>
+<a id="aa94d96ee929fef5b398706a211c302ff" name="aa94d96ee929fef5b398706a211c302ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa94d96ee929fef5b398706a211c302ff">&#9670;&#160;</a></span>getMilliTeslas()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool HallEffect_Digital_EasyC::getReading </td>
+          <td class="memname">float HallEffect_Analog_EasyC::getMilliTeslas </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -212,13 +206,33 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reads hall effect sensor value via easyC. </p>
-<dl class="section return"><dt>Returns</dt><dd>Returns sensor value inverted (1 for magnet detected, 0 for no magnet) </dd></dl>
+<p>Reads hall effect calculated milli Teslas value via easyC. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns calculated milli Teslas </dd></dl>
 
 </div>
 </div>
-<a id="a03545c867a29e787ca562e44b7f9728c" name="a03545c867a29e787ca562e44b7f9728c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03545c867a29e787ca562e44b7f9728c">&#9670;&#160;</a></span>initializeNative()</h2>
+<a id="a30114fcd2324ac471f546702cf1f6369" name="a30114fcd2324ac471f546702cf1f6369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30114fcd2324ac471f546702cf1f6369">&#9670;&#160;</a></span>getRawReading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HallEffect_Analog_EasyC::getRawReading </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads hall effect raw sensor value via easyC. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns raw reading as a float </dd></dl>
+
+</div>
+</div>
+<a id="a4e103aaa2eeedee7a98d226650f5eb74" name="a4e103aaa2eeedee7a98d226650f5eb74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e103aaa2eeedee7a98d226650f5eb74">&#9670;&#160;</a></span>initializeNative()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +241,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HallEffect_Digital_EasyC::initializeNative </td>
+          <td class="memname">void HallEffect_Analog_EasyC::initializeNative </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -245,8 +259,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="_hall-_effect-_digital-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">Hall-Effect-Digital-easyC-SOLDERED.h</a></li>
-<li><a class="el" href="_hall-_effect-_digital-easy_c-_s_o_l_d_e_r_e_d_8cpp.html">Hall-Effect-Digital-easyC-SOLDERED.cpp</a></li>
+<li><a class="el" href="_hall-_effect-_analog-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">Hall-Effect-Analog-easyC-SOLDERED.h</a></li>
+<li><a class="el" href="_hall-_effect-_analog-easy_c-_s_o_l_d_e_r_e_d_8cpp.html">Hall-Effect-Analog-easyC-SOLDERED.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -254,7 +268,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath">
     <!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="class_hall_effect___digital___easy_c.html">HallEffect_Digital_EasyC</a></li>
+        <li class="navelem"><a class="el" href="class_hall_effect___analog___easy_c.html">HallEffect_Analog_EasyC</a></li>
         <li class="footer">
             Generated on Tue Jan 24 2023 09:25:10 for Hall Effect sensor Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
