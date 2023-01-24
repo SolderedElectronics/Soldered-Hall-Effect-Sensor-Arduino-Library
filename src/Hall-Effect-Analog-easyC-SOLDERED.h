@@ -18,15 +18,15 @@
 
 /**
  *  @brief    Base class Digital EasyC Hall Effect Sensor
- * 
-*/
+ *
+ */
 class HallEffect_Analog_EasyC : public EasyC
 {
   public:
     HallEffect_Analog_EasyC(){};
     int getRawReading();
     float getMilliTeslas();
-  
+
   protected:
     void initializeNative(){};
 };

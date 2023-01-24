@@ -45,6 +45,6 @@ uint16_t HallEffect_Analog::getReading()
  */
 float HallEffect_Analog::getMilliTeslas()
 {
-    uint16_t value = getReading() / 4; //TODO
+    uint16_t value = getReading() / 4; // TODO
     return 20.47 * (10 * (value / 1023.0) / 5.0 - 1);
 }
