@@ -10,22 +10,23 @@
  * @authors Robert Soric for Soldered.com
  ***************************************************/
 
-#ifndef __HALL_EFFECT_DIGITAL_EASYC_SOLDERED__
-#define __HALL_EFFECT_DIGITAL_EASYC_SOLDERED__
+#ifndef __HALL_EFFECT_ANALOG_EASYC_SOLDERED__
+#define __HALL_EFFECT_ANALOG_EASYC_SOLDERED__
 
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.hpp"
 
 /**
  *  @brief    Base class Digital EasyC Hall Effect Sensor
- *
- */
-class HallEffect_Digital_EasyC : public EasyC
+ * 
+*/
+class HallEffect_Analog_EasyC : public EasyC
 {
   public:
-    HallEffect_Digital_EasyC(){};
-    bool getReading();
-
+    HallEffect_Analog_EasyC(){};
+    int getRawReading();
+    float getMilliTeslas();
+  
   protected:
     void initializeNative(){};
 };

@@ -17,8 +17,8 @@
 
 /**
  *  @brief    Base class Digital Hall Effect Sensor
- * 
-*/
+ *
+ */
 class HallEffect_Digital
 {
   public:

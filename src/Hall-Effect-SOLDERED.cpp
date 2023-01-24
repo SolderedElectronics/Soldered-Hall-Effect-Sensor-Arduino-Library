@@ -11,4 +11,3 @@
 
 
 #include "Hall-Effect-SOLDERED.h"
-

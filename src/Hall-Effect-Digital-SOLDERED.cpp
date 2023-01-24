@@ -14,7 +14,7 @@
 
 /**
  * @brief                   Constructor of HallEffect_Digital
- * 
+ *
  * @param                   int _pin
  *                          Pin of the sensor
  */

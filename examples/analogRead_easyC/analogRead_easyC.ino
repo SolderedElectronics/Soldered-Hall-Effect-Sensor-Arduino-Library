@@ -1,9 +1,9 @@
 /**
  **************************************************
  *
- * @file        digitalRead_easyC.ino
- * @brief       Example of using the easyC Digital Hall Effect sensor by Soldered Electronics
- *              For more info, see: solde.red/333081
+ * @file        analogRead_easyC.ino
+ * @brief       Example of using the easyC Analog Hall Effect sensor by Soldered Electronics
+ *              For more info, see: solde.red/333082
  *
  *
  * @copyright GNU General Public License v3.0
@@ -28,11 +28,9 @@
 // 0x37    | x | x | x |
 
 // To change the reading, place a magnet in front of the sensor
-// getReading returns 1 (True) for a detected magnet and 0 (False) for no magnet detected
-// If it's always reading 1, check connections and address
 
 // Declare sensor object on default address
-HallEffect_Digital_EasyC hall;
+HallEffect_Analog_EasyC hall;
 
 void setup()
 {
@@ -48,22 +46,18 @@ void setup()
 
 void loop()
 {
-    // Read sensor
-    bool hallReading = hall.getReading();
+    // Read raw measurement
+    int hallRawReading = hall.getRawReading();
+    
+    // Read milli Teslas
+    float hallMilliTeslas = hall.getMilliTeslas();
 
-    // Print sensor value to serial
-    Serial.print("Digital Hall Effect Sensor reading: ");
-    Serial.println(hallReading);
-
-    // Print a string depending on the measurement result
-    if(hallReading)
-    {
-        Serial.println("Magnet detected!\n");
-    }
-    else
-    {
-        Serial.println("No magnet detected.\n");
-    }
+    // Print sensor values to serial
+    Serial.print("Analog Hall Effect raw sensor reading: ");
+    Serial.println(hallRawReading);
+    Serial.print("Which is: ");
+    Serial.print(hallMilliTeslas);
+    Serial.println(" mT\n");
     
     // Wait a bit until next measurement
     delay(1000);

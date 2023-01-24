@@ -17,13 +17,14 @@
 
 /**
  *  @brief    Base class Analog Hall Effect Sensor
- * 
-*/
+ *
+ */
 class HallEffect_Analog
 {
   public:
     HallEffect_Analog(int _pin);
     uint16_t getReading();
+    float getMilliTeslas();
 
   private:
     int pin;
