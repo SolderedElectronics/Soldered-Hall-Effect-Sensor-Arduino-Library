@@ -30,7 +30,7 @@
   <td id="projectalign">
    <div id="projectname">Hall Effect sensor Library<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the Hall effect sensor with easyC</div>
+   <div id="projectbrief">Hall Effect Sensor library (Analog and Digital, regular and EasyC)</div>
   </td>
  </tr>
  </tbody>
@@ -145,7 +145,7 @@ Private Attributes</h2></td></tr>
 <p>Constructor of <a class="el" href="class_hall_effect___analog.html" title="Base class Analog Hall Effect Sensor.">HallEffect_Analog</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">int</td><td>_pin Pin of the sensor (has to support AnalogRead) </td></tr>
+    <tr><td class="paramname">int</td><td>_pin Pin of the sensor (has to support analogRead) </td></tr>
   </table>
   </dd>
 </dl>
@@ -169,7 +169,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reads hall effect calculated milli Teslas value. </p>
-<dl class="section return"><dt>Returns</dt><dd>Returns calculated milli Teslas </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The reading is calculated differently depending on your board's ADC. You may need to adjust the calculation.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float value of calculated milli Teslas </dd></dl>
 
 </div>
 </div>
@@ -190,7 +191,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reads hall effect sensor value. </p>
 <dl class="section return"><dt>Returns</dt><dd>Returns a unit16_4 sensor reading value.</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The value will be around 1845 for no magnet detected. It will increase towards 4095 (analogRead maximum) if a + polarity magnet is detected And it will decrease towards 0 if a - polarity magnet is detected </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>For no magnet, the value will be around the middle of your analogRead range, which depends on your board. When a positive or negative magnet field is detected it will increase or decrease accordingly until it reaches the maximum or minimum. </dd></dl>
 
 </div>
 </div>
@@ -229,7 +230,7 @@ Private Attributes</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_hall_effect___analog.html">HallEffect_Analog</a></li>
         <li class="footer">
-            Generated on Tue Jan 24 2023 09:26:11 for Hall Effect sensor Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Jan 26 2023 07:04:24 for Hall Effect sensor Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.6.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
