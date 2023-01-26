@@ -28,16 +28,16 @@ HallEffect_Analog::HallEffect_Analog(int _pin)
  * @brief                   Reads hall effect sensor value
  *
  * @return                  Returns a unit16_4 sensor reading value.
- * 
+ *
  */
 uint16_t HallEffect_Analog::getReading()
 {
-    #ifdef ESP32
-        uint32_t value = analogReadMilliVolts(pin);
-        return map(value, 142, 3166, 0, 1024);
-    #else
-        return analogRead(pin);
-    #endif
+#ifdef ESP32
+    uint32_t value = analogReadMilliVolts(pin);
+    return map(value, 142, 3166, 0, 1024);
+#else
+    return analogRead(pin);
+#endif
 }
 
 /**
