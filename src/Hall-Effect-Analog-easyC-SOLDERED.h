@@ -1,9 +1,9 @@
 /**
  **************************************************
  *
- * @file        Hall-Effect-Digital-easyC-SOLDERED.h
- * @brief       Header file of EasyC Digital Hall Effect sensor by Soldered Electronics
- *              For more info, see: solde.red/333081
+ * @file        Hall-Effect-Analog-easyC-SOLDERED.h
+ * @brief       Header file of EasyC Analog Hall Effect sensor by Soldered Electronics
+ *              For more info, see: solde.red/333082
  *
  *
  * @copyright GNU General Public License v3.0
@@ -17,7 +17,7 @@
 #include "libs/Generic-easyC/easyC.hpp"
 
 /**
- *  @brief    Base class Digital EasyC Hall Effect Sensor
+ *  @brief    Base class Analog EasyC Hall Effect Sensor
  *
  */
 class HallEffect_Analog_EasyC : public EasyC

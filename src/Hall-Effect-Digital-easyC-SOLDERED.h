@@ -17,7 +17,7 @@
 #include "libs/Generic-easyC/easyC.hpp"
 
 /**
- *  @brief    Base class Digital EasyC Hall Effect Sensor
+ *  @brief                 Base class Digital EasyC Hall Effect Sensor
  *
  */
 class HallEffect_Digital_EasyC : public EasyC

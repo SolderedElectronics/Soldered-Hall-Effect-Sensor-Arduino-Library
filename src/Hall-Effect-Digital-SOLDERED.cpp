@@ -13,10 +13,10 @@
 #include "Hall-Effect-Digital-SOLDERED.h"
 
 /**
- * @brief                   Constructor of HallEffect_Digital
+ * @brief               Constructor of HallEffect_Digital
  *
- * @param                   int _pin
- *                          Pin of the sensor
+ * @param               int _pin
+ *                      Pin of the sensor
  */
 HallEffect_Digital::HallEffect_Digital(int _pin)
 {
@@ -25,9 +25,9 @@ HallEffect_Digital::HallEffect_Digital(int _pin)
 }
 
 /**
- * @brief                   Reads hall effect sensor value
+ * @brief               Reads hall effect sensor value
  *
- * @return                  Returns sensor value inverted (1 for magnet detected, 0 for no magnet)
+ * @return              Returns sensor value inverted (1 for magnet detected, 0 for no magnet)
  */
 bool HallEffect_Digital::getReading()
 {
