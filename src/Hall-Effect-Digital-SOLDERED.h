@@ -16,7 +16,7 @@
 #include "Arduino.h"
 
 /**
- *  @brief    Base class Digital Hall Effect Sensor
+ *  @brief              Base class of Digital Hall Effect Sensor
  *
  */
 class HallEffect_Digital

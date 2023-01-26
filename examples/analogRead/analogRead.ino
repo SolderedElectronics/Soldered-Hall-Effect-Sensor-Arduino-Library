@@ -11,18 +11,19 @@
  ***************************************************/
 
 #include "Hall-Effect-SOLDERED.h"
-#define HALL_EFFECT_PIN 4
+#define HALL_EFFECT_PIN A3
 
 // For this example, connect the Hall Effect Sensor to your Dasduino board as such:
-// VCC to 3v3
-// OUT to Pin 5 (can be changed below)
+// VCC to VCC on Dasduino
+// OUT to Pin HALL_EFFECT_PIN (can be changed according to your board, here it's A3)
 // GND to GND
 
 // To change the reading, place a magnet in front of the sensor
 // getReading returns a uint16_t analogRead on the sensor pin
-// The sensor outputs approx 1.65V by default
-// A higher number indicates a stronger magnetic force
-// If it's always reading 0, check connections and if the HALL_EFFECT_PIN can be used as an analog input on your board
+// The sensor outputs a value approximately in the middle of your analogRead range
+// A higher number indicates a stronger positive magnetic force
+// A lower number indicates a stronger negative magnetic force
+// If it's always reading 0, check connections and if the HALL_EFFECT_PIN is free to be used as an analog input on your board
 // For more info, see: https://www.silabs.com/documents/public/data-sheets/si721x-data-sheet.pdf
 
 // Declare sensor object
@@ -43,7 +44,7 @@ void loop()
     // Print sensor values to serial
     Serial.print("Analog Hall Effect raw sensor reading: ");
     Serial.println(hallReading);
-    Serial.print("Which is: ");
+    Serial.print("Analog Hall Effect sensor reading in milli Teslas: ");
     Serial.print(hallMilliTeslas);
     Serial.println(" mT\n");
 

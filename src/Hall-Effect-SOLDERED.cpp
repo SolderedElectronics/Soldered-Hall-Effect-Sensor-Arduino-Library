@@ -1,8 +1,8 @@
 /**
  **************************************************
  *
- * @file        Generic-easyC-SOLDERED.cpp
- * @brief       Example functions to overload in base class.
+ * @file        Hall-Effect-Soldered.cpp
+ * @brief       Functions for the specific Hall Effect board can be found in other .cpp files in this folder
  *
  *
  * @copyright GNU General Public License v3.0

@@ -19,9 +19,14 @@
 
 #include "Arduino.h"
 #include "Hall-Effect-Analog-SOLDERED.h"
+#include "Hall-Effect-Analog-easyC-SOLDERED.h"
+<<<<<<< Updated upstream
 #include "Hall-Effect-Digital-SOLDERED.h"
 #include "Hall-Effect-Digital-easyC-SOLDERED.h"
-#include "Hall-Effect-Analog-easyC-SOLDERED.h"
+=======
+#include "Hall-Effect-Digital-easyC-SOLDERED.h"
+#include "Hall-Effect-Digital-SOLDERED.h"
+>>>>>>> Stashed changes
 #include "libs/Generic-easyC/easyC.hpp"
 
 #endif

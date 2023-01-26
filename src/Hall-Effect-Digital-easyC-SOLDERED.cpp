@@ -19,11 +19,23 @@
  */
 bool HallEffect_Digital_EasyC::getReading()
 {
-        // Reading register will always return two bytes
+    // Reading register will always return two bytes
     // Both must be read but we're only interested in the first one
-    char value;
-    char padding;
-    readRegister(0, &value, 1);
-    readRegister(0, &padding, 1);
-    return !value;
+    char value [2];
+    readRegister(0, value, 2);
+
+    // kako radi
+    /*
+    // Reading threshold in case of noise
+    bool result;
+    if(value > 10)
+    {
+        result = true;
+    }
+    else
+    {
+        result = false;
+    }*/
+
+    return !value[1];
 }
