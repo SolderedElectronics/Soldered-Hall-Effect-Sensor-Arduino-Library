@@ -11,11 +11,11 @@
  ***************************************************/
 
 #include "Hall-Effect-SOLDERED.h"
-#define HALL_EFFECT_PIN 2
+#define HALL_EFFECT_PIN A0
 
 // For this example, connect the Hall Effect Sensor to your Dasduino board as such:
 // VCC to VCC on Dasduino
-// OUT to Pin HALL_EFFECT_PIN (can be changed according to your board, here it's A3)
+// OUT to Pin HALL_EFFECT_PIN (can be changed according to your board)
 // GND to GND
 
 // To change the reading, place a magnet in front of the sensor

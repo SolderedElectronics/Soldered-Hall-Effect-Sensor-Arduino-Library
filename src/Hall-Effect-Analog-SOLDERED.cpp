@@ -28,14 +28,16 @@ HallEffect_Analog::HallEffect_Analog(int _pin)
  * @brief                   Reads hall effect sensor value
  *
  * @return                  Returns a unit16_4 sensor reading value.
- *
- * @note                    For no magnet, the value will be around the middle of your analogRead range, which depends
- * on your board. When a positive or negative magnet field is detected it will increase or decrease accordingly until it
- * reaches the maximum or minimum.
+ * 
  */
 uint16_t HallEffect_Analog::getReading()
 {
-    return analogRead(pin);
+    #ifdef ESP32
+        uint32_t value = analogReadMilliVolts(pin);
+        return map(value, 142, 3166, 0, 1024);
+    #else
+        return analogRead(pin);
+    #endif
 }
 
 /**
@@ -48,24 +50,6 @@ uint16_t HallEffect_Analog::getReading()
  */
 float HallEffect_Analog::getMilliTeslas()
 {
-
     float value = float(getReading());
-
-#ifdef ESP32
-    // For Dasduino ConnectPlus
-    // Mapping values to correct ones
-    float milliTeslas;
-    if (value >= 2686.0)
-    {
-        milliTeslas = (value - 2686.0) * (20.35 - 0.00) / (4096.00 - 2686.0) + 0.00;
-    }
-    else
-    {
-        milliTeslas = (value - 0.00) * (0.00 - (-20.35)) / (2686.0 - 0.00) - 20.35;
-    }
-
-    return milliTeslas;
-#else
     return 20.47 * (10 * (value / 1023.0) / 5.0 - 1);
-#endif
 }
