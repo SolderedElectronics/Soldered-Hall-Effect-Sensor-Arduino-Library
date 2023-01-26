@@ -1,4 +1,4 @@
-# Hall Effect Arduino library
+# Hall Effect Sensor Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 
@@ -12,13 +12,13 @@
 
 | ![Hall effect sensor breakout with digital output & easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [Hall effect sensor breakout with digital output & easyC](https://www.solde.red/333081)    
+| [Hall effect sensor breakout with digital output & easyC](https://www.solde.red333081)                                                           |
 
 | ![Hall effect sensor breakout with analog output & easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
 | [Hall effect sensor breakout with analog output & easyC](https://www.solde.red333082)                                                           |
 
-The analog hall effect sensor (Hall Effect sensor) will be able to detect the magnetic field in its vicinity thanks to the aforementioned physical law. A magnetic field that can be created by a magnet, a current flowing through a conductor or some third source, the Hall effect sensor will recognize each. The stronger the magnetic field, the higher the voltage will be at the output of this sensor, so it is a sensor with analog output. Available as an EasyC board and standalone.
+The analog Hall Effect sensor will be able to detect the magnetic field in its vicinity thanks to the aforementioned physical law. A magnetic field that can be created by a magnet, a current flowing through a conductor or some third source, the Hall effect sensor will recognize each. The stronger the magnetic field, the higher the voltage will be at the output of this sensor, so it is a sensor with analog output. Available as an EasyC board and standalone.
 
 - Dimensions: 22 mm x 22 mm
 - Logic voltage level: 0V - 5V
@@ -27,7 +27,7 @@ The analog hall effect sensor (Hall Effect sensor) will be able to detect the ma
 - Output: analog
 - Mounting holes: 2 
 
-The digital hall effect sensor (Hall Effect sensor) will be able to detect the magnetic field in its vicinity thanks to the aforementioned physical law. A magnetic field that can be created by a magnet, a current flowing through a conductor or some third source, the Hall effect sensor will recognize each. This sensor has a programmed threshold at which it will change the state of its output signal, so it is a sensor with a digital output. Available as an EasyC board and standalone.
+The digital Hall Effect sensor will be able to detect the magnetic field in its vicinity thanks to the aforementioned physical law. A magnetic field that can be created by a magnet, a current flowing through a conductor or some third source, the Hall effect sensor will recognize each. This sensor has a programmed threshold at which it will change the state of its output signal, so it is a sensor with a digital output. Available as an EasyC board and standalone.
 
 - Dimensions: 22 mm x 22 mm
 - Logic voltage level: same as supply voltage
