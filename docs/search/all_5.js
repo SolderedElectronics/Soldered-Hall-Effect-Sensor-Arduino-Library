@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hall_20effect_20arduino_20library_0',['Hall Effect Arduino library',['../index.html',1,'']]],
+  ['hall_20effect_20sensor_20arduino_20library_0',['Hall Effect Sensor Arduino library',['../index.html',1,'']]],
   ['hall_2deffect_2danalog_2deasyc_2dsoldered_2ecpp_1',['Hall-Effect-Analog-easyC-SOLDERED.cpp',['../_hall-_effect-_analog-easy_c-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
   ['hall_2deffect_2danalog_2deasyc_2dsoldered_2eh_2',['Hall-Effect-Analog-easyC-SOLDERED.h',['../_hall-_effect-_analog-easy_c-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
   ['hall_2deffect_2danalog_2dsoldered_2ecpp_3',['Hall-Effect-Analog-SOLDERED.cpp',['../_hall-_effect-_analog-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
