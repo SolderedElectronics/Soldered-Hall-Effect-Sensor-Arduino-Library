@@ -21,7 +21,7 @@ bool HallEffect_Digital_EasyC::getReading()
 {
     // Reading register will always return two bytes
     // Both must be read but we're only interested in the first one
-    char value [2];
+    char value[2];
     readRegister(0, value, 2);
 
     // kako radi

@@ -24,9 +24,9 @@
 #include "Hall-Effect-Digital-SOLDERED.h"
 #include "Hall-Effect-Digital-easyC-SOLDERED.h"
 =======
-#include "Hall-Effect-Digital-easyC-SOLDERED.h"
 #include "Hall-Effect-Digital-SOLDERED.h"
+#include "Hall-Effect-Digital-easyC-SOLDERED.h"
 >>>>>>> Stashed changes
-#include "libs/Generic-easyC/easyC.hpp"
+    #include "libs/Generic-easyC/easyC.hpp"
 
 #endif
