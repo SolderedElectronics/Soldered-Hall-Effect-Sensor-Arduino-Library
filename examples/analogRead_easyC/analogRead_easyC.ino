@@ -47,7 +47,7 @@ void setup()
 void loop()
 {
     // Read raw measurement
-    int hallRawReading = hall.getRawReading();
+    uint16_t hallRawReading = hall.getRawReading();
     
     // Read milli Teslas
     float hallMilliTeslas = hall.getMilliTeslas();

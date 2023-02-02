@@ -16,6 +16,35 @@
 #include "Arduino.h"
 
 /**
+ * Different boards use different ADC's with a different range and resolution
+ */
+#ifdef __AVR__
+
+#define VOLTAGE_RES 5
+#define ADC_MAX     1024
+#define NUM_BITS    10
+
+#elif ESP32
+
+#define VOLTAGE_RES 3.3
+#define ADC_MAX     4096
+#define NUM_BITS    12
+
+#elif ESP8266
+
+#define VOLTAGE_RES 3.3
+#define ADC_MAX     1024
+#define NUM_BITS    10
+
+#else
+
+#define VOLTAGE_RES 5
+#define ADC_MAX     1024
+#define NUM_BITS    10
+
+#endif
+
+/**
  *  @brief    Base class Analog Hall Effect Sensor
  *
  */

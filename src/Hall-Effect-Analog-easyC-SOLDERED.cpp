@@ -17,13 +17,12 @@
  *
  * @return                  Returns raw reading as a float
  */
-int HallEffect_Analog_EasyC::getRawReading()
+uint16_t HallEffect_Analog_EasyC::getRawReading()
 {
     // Reading register will always return two bytes
-    // Both must be read but we're only interested in the first one
-    char raw[2];
-    readRegister(ANALOG_READ_REG, raw, 2 * sizeof(uint8_t));
-    uint16_t value = raw[0] | (raw[1]) << 8;
+    uint8_t raw[2];
+    readRegister(ANALOG_READ_REG, (char *)raw, 2);
+    uint16_t value = ( (uint8_t)raw[1] << 8) | (uint8_t)raw[0];
     return value;
 }
 

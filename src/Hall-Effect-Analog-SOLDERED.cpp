@@ -27,17 +27,12 @@ HallEffect_Analog::HallEffect_Analog(int _pin)
 /**
  * @brief                   Reads hall effect sensor value
  *
- * @return                  Returns a unit16_4 sensor reading value.
- * 
+ * @return                  Returns a unit16_t sensor reading value.
+ *
  */
 uint16_t HallEffect_Analog::getReading()
 {
-    #ifdef ESP32
-        uint32_t value = analogReadMilliVolts(pin);
-        return map(value, 142, 3166, 0, 1024);
-    #else
-        return analogRead(pin);
-    #endif
+    return analogRead(pin);
 }
 
 /**
@@ -51,5 +46,17 @@ uint16_t HallEffect_Analog::getReading()
 float HallEffect_Analog::getMilliTeslas()
 {
     float value = float(getReading());
-    return 20.47 * (10 * (value / 1023.0) / 5.0 - 1);
+    // Fix for ESP32's ADC
+#ifdef ESP32
+    if(value >= 2710)
+    {
+        return (value - 2710.0) * (20.47 - 0.0) / (4095.0 - 2710.0) + 0.0;
+    }
+    else
+    {
+        return (value) * (20.47) / (2710.0) - 20.47;
+    }
+#else
+    return 20.47 * (NUM_BITS * (value / (ADC_MAX - 1)) / VOLTAGE_RES - 1);
+#endif
 }
