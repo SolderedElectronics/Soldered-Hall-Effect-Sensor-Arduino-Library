@@ -24,7 +24,7 @@ class HallEffect_Analog_EasyC : public EasyC
 {
   public:
     HallEffect_Analog_EasyC(){};
-    int getRawReading();
+    uint16_t getRawReading();
     float getMilliTeslas();
 
   protected:

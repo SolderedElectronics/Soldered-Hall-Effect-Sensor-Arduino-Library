@@ -6,18 +6,18 @@
 # Datatypes (KEYWORD1)
 ##################################################
 
-HallEffect_Digital KEYWORD1
-HallEffect_Digital_EasyC KEYWORD1
-HallEffect_Analog KEYWORD1
-HallEffect_Analog_EasyC KEYWORD1
+HallEffect_Digital	KEYWORD1
+HallEffect_Digital_EasyC	KEYWORD1
+HallEffect_Analog	KEYWORD1
+HallEffect_Analog_EasyC	KEYWORD1
 
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-getReading      KEYWORD2
-getRawReading   KEYWORD2
-getMilliTeslas  KEYWORD2
+getReading	KEYWORD2
+getRawReading	KEYWORD2
+getMilliTeslas	KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
