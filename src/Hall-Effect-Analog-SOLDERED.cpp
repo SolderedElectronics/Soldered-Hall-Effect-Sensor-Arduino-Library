@@ -48,7 +48,7 @@ float HallEffect_Analog::getMilliTeslas()
     float value = float(getReading());
     // Fix for ESP32's ADC
 #ifdef ESP32
-    if(value >= 2710)
+    if (value >= 2710)
     {
         return (value - 2710.0) * (20.47 - 0.0) / (4095.0 - 2710.0) + 0.0;
     }

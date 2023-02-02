@@ -22,7 +22,7 @@ uint16_t HallEffect_Analog_EasyC::getRawReading()
     // Reading register will always return two bytes
     uint8_t raw[2];
     readRegister(ANALOG_READ_REG, (char *)raw, 2);
-    uint16_t value = ( (uint8_t)raw[1] << 8) | (uint8_t)raw[0];
+    uint16_t value = ((uint8_t)raw[1] << 8) | (uint8_t)raw[0];
     return value;
 }
 
