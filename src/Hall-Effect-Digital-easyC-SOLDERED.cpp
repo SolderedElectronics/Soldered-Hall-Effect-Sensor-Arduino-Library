@@ -23,19 +23,5 @@ bool HallEffect_Digital_EasyC::getReading()
     // Both must be read but we're only interested in the first one
     char value[2];
     readRegister(0, value, 2);
-
-    // kako radi
-    /*
-    // Reading threshold in case of noise
-    bool result;
-    if(value > 10)
-    {
-        result = true;
-    }
-    else
-    {
-        result = false;
-    }*/
-
     return !value[1];
 }
