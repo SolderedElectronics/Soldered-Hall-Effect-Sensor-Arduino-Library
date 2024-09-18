@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_1',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]]
+  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
 ];

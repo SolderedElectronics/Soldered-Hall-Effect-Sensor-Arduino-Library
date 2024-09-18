@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['getmilliteslas_0',['getMilliTeslas',['../class_hall_effect___analog___easy_c.html#aa94d96ee929fef5b398706a211c302ff',1,'HallEffect_Analog_EasyC::getMilliTeslas()'],['../class_hall_effect___analog.html#a6412be7ba0b3d3c83e0c67e4529a9b51',1,'HallEffect_Analog::getMilliTeslas()']]],
-  ['getrawreading_1',['getRawReading',['../class_hall_effect___analog___easy_c.html#a5bc9c963f7a9fea1099b09170de91b71',1,'HallEffect_Analog_EasyC']]],
-  ['getreading_2',['getReading',['../class_hall_effect___analog.html#a6d0924185ec6020774a1bb6ce7311563',1,'HallEffect_Analog::getReading()'],['../class_hall_effect___digital___easy_c.html#a05f3ce31ac82dcaeb2e77ba1c5e01be4',1,'HallEffect_Digital_EasyC::getReading()'],['../class_hall_effect___digital.html#a87243f254df01cdb3ceb57418fb56c0a',1,'HallEffect_Digital::getReading()']]]
+  ['easyc_0',['EasyC',['../class_easy_c.html',1,'EasyC'],['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC::EasyC()']]],
+  ['easyc_2ehpp_1',['easyC.hpp',['../easy_c_8hpp.html',1,'']]],
+  ['effect_20sensor_20arduino_20library_2',['Hall Effect Sensor Arduino library',['../index.html',1,'']]],
+  ['err_3',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]]
 ];
