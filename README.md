@@ -6,19 +6,19 @@
 
 | ![Hall effect sensor breakout with analog output](https://github.com/SolderedElectronics/Hall-effect-sensor-breakout-with-digital-output-hardware-design/blob/main/OUTPUTS/V1.1.1/333080.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
-|                      [Hall effect sensor breakout with analog output](https://www.solde.red/333079)                      |
+|                      [Hall effect sensor breakout with analog output](https://solde.red/333079)                      |
 
 | ![Hall effect sensor breakout with digital output](https://github.com/SolderedElectronics/Hall-effect-sensor-breakout-with-analog-output-hardware-design/blob/main/OUTPUTS/V1.1.1/333079.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
-|                      [Hall effect sensor breakout with digital output](https://www.solde.red/333080)                      |
+|                      [Hall effect sensor breakout with digital output](https://solde.red/333080)                      |
 
 | ![Hall effect sensor breakout with analog output & easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
-|                      [Hall effect sensor breakout with analog output & easyC](https://www.solde.red/333081)                      |
+|                      [Hall effect sensor breakout with analog output & easyC](https://solde.red/333081)                      |
 
 | ![Hall effect sensor breakout with digital output & easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
-|                      [Hall effect sensor breakout with digital output & easyC](https://www.solde.red/333082)                      |
+|                      [Hall effect sensor breakout with digital output & easyC](https://solde.red/333082)                      |
 
 The analog Hall Effect sensor will be able to detect the magnetic field in its vicinity thanks to the aforementioned physical law. A magnetic field that can be created by a magnet, a current flowing through a conductor or some third source, the Hall effect sensor will recognize each. The stronger the magnetic field, the higher the voltage will be at the output of this sensor, so it is a sensor with analog output. Available as an EasyC board and standalone.
 
