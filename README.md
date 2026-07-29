@@ -12,11 +12,11 @@
 | :------------------------------------------------------------------------------------------------------------------------------: |
 |                      [Hall effect sensor breakout with digital output](https://solde.red/333080)                      |
 
-| ![Hall effect sensor breakout with analog output & easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Hall effect sensor breakout with analog output & easyC](https://docs.soldered.com/img/hall-effect-sensor/333082.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
 |                      [Hall effect sensor breakout with analog output & easyC](https://solde.red/333081)                      |
 
-| ![Hall effect sensor breakout with digital output & easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Hall effect sensor breakout with digital output & easyC](https://docs.soldered.com/img/hall-effect-sensor/333082.jpg) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
 |                      [Hall effect sensor breakout with digital output & easyC](https://solde.red/333082)                      |
 
